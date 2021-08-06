@@ -1,0 +1,288 @@
+  
+.ml1 {
+  font-weight: 1000;
+  font-size: 2.5em;
+
+  text-align: center;
+  padding-left: 17em;
+
+
+
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 13em;
+    color: #BEFBF6 ;
+  
+
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 6em;
+  color: #BEFBF6 ;
+
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+  color:#73CAAA ;
+}
+
+.ml1 .line1 { background-color: #BEFBF6  ; top:6em; }
+.ml1 .line2 { background-color: #BEFBF6  ; bottom: 12em; }
+
+
+
+/*text 4*/
+
+.ml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: -17.2em;
+
+  right: 0;
+  opacity: 0; 
+}
+
+/*text imitate*/
+
+.ml5 {
+  position: relative;
+  font-weight: 900;
+  font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
+.ml5 .letterss {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: -17.2em;
+
+  right: 0;
+  opacity: 0; 
+}
+
+
+/*text3*/
+.ml11 {
+  font-weight: 700;
+  font-size:1em;
+  text-align: center;
+  color: white;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 2.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 256em; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 6em;
+
+}
+
+
+/*last text*/
+
+
+.ml15 {
+  font-weight: 1200;
+  font-size: 1em;
+  text-align: center;
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+
+
+}
+
+
+h1.ml8 {
+  font-weight: 900;
+  font-size: 4.5em;
+  color: #fff;
+  width: 3em;
+  height: 3em;
+}
+
+.ml8 .letters-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: 1em;
+}
+
+.ml8 .letters {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  line-height: 0.7em;
+  right:4;
+  left:5em;
+  top: -0.2em;
+  color: blue;
+}
+
+.ml8 .bang {
+  font-size: 1.4em;
+  top: auto;
+  left: 10em;
+  padding-left: 231em;
+
+}
+
+.ml8 .circle {
+  position: absolute;
+  left: 5em;
+  right:0;
+  margin: auto;
+  top: -2em;
+  bottom: 0;
+  color: white;
+}
+
+.ml8 .circle-white {
+  width: 3em;
+  height: 3em;
+  border: 2px dashed white;
+  border-radius: 2em;
+    left:10em;
+
+}
+
+.ml8 .circle-dark {
+  width: 2.2em;
+  height: 2.2em;
+  background-color: white;
+  border-radius: 3em;
+  z-index: 1;
+  left:10em;
+  top:-4em;
+}
+
+.ml8 .circle-dark-dashed {
+  border-radius: 2.4em;
+  background-color: transparent;
+  border: 2px dashed white;
+  width: 2.3em;
+  height: 2.3em;
+
+}
+
+.ml7 {
+  position: relative;
+  font-weight: 900;
+  font-size:2.7em;
+  padding-left: 19.5em;
+  bottom:-6.3em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+    color:#55C9BE  ;  
+}
+
+/*ghost button*/
+
+
+
+<style type="text/css">
+.eb-lora {
+  color: #000;
+  background-color: #f6f6f6;
+  text-align: left;
+  font-family: Lora, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 3em;
+  padding: 11em 12em 10em;
+}
+
+.eb-lora-p {
+  font-size: 17px;
+  font-size: 1.7em;
+  max-width: 570px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  line-height: 1.9em;
+
+}
+
+.eb-lora-fl {
+  font-size: 7em;
+  float: left;
+  line-height: 0.8em;
+  margin-top: -0.29em;
+  margin-right: -0.05em;
+}
+.ml16 {
+  color: #402d2d;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  overflow: hidden;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
